@@ -10,7 +10,7 @@ function updateEmployeeWithKeyAndValue(obj, key, value,) {
 }
 function destructivelyUpdateEmployeeWithKeyAndValue(obj, key, value) {
   obj[key] = value;
-  return obj
+  return obj;
 }
 
 function deleteFromEmployeeByKey(employee, key){
